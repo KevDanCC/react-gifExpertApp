@@ -12,9 +12,11 @@ import { Memorize } from './06-memos/Memorize.jsx'
 import { MemorizeHook } from './06-memos/MemorizeHook.jsx'
 import { CallbackHook } from './07-callbackHook/CallbackHook.jsx'
 import { Padre } from './07-tarea-memo/Padre.jsx'
+import './08-useReducer/intro-reducer.js'
+import { TodoApp } from './08-useReducer/TodoApp.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Padre />
-  </StrictMode>,
+    <StrictMode>
+        <TodoApp />
+    </StrictMode>,
 )
